@@ -116,5 +116,5 @@ AI-storytelling-web-app/
 └── app.py
 ```
 
-## Contributing
+## Contributing 👩‍💻👨‍💻
 Contributions are welcome! Feel free to open issues or pull requests for any improvements or features you'd like to see in the project.
