@@ -72,7 +72,8 @@ cd AI-storytelling-web-app
 
 3. Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip install flask
+pip install openai
 ```
 
 4. Replace placeholder API keys:
