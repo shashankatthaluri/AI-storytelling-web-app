@@ -113,7 +113,6 @@ AI-storytelling-web-app/
 │   │   ├── templates/
 │   │   │   └── index.html
 │   │   └── __init__.py
-└── venv/
 └── app.py
 ```
 
