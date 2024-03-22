@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Storytelling Web App</title>
+    <!-- Linking the CSS file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <!-- Main container with black border and white background -->
+    <div class="container">
+        <!-- Title of the web app -->
+        <h1>AI Storytelling Web App</h1>
+        <!-- Form for user input -->
+        <form id="storyForm">
+            <!-- Text area for user to enter prompt -->
+            <label for="prompt">Enter Prompt:</label>
+            <textarea id="prompt" name="prompt" rows="4" cols="50"></textarea>
+            <!-- Button to submit the form and generate story -->
+            <button type="submit" class="generate-btn">Generate Story</button>
+        </form>
+        <!-- Container to display the generated story -->
+        <div id="storyContainer"></div>
+        <!-- Container to display generated images -->
+        <div id="imageContainer"></div>
+    </div>
+    <!-- Linking the JavaScript file -->
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>
